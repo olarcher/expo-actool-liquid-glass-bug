@@ -1,0 +1,35 @@
+{
+  "fill" : {
+    "linear-gradient" : [
+      "display-p3:0.73242,0.86963,0.85791,1.00000",
+      "display-p3:0.41479,0.70508,0.67334,1.00000"
+    ],
+    "orientation" : {
+      "start" : { "x" : 0.5, "y" : 0 },
+      "stop" : { "x" : 0.5, "y" : 0.7 }
+    }
+  },
+  "groups" : [
+    {
+      "name" : "Group",
+      "layers" : [
+        {
+          "blend-mode" : "darken",
+          "fill" : "none",
+          "glass" : true,
+          "image-name" : "ball.svg",
+          "name" : "ball",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [ 0, 0 ]
+          }
+        }
+      ],
+      "shadow" : { "kind" : "neutral", "opacity" : 0.5 },
+      "translucency" : { "enabled" : true, "value" : 0.5 }
+    }
+  ],
+  "supported-platforms" : {
+    "squares" : "shared"
+  }
+}

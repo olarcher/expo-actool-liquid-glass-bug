@@ -8,7 +8,7 @@
     "userInterfaceStyle": "light",
     "ios": {
       "supportsTablet": true,
-      "icon": "./assets/placeholder.icon"
+      "icon": "./assets/app.icon"
     },
     "android": {
       "adaptiveIcon": {

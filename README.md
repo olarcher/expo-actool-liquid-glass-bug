@@ -7,10 +7,10 @@ This is a minimal Expo project that demonstrates the `actool` crash on Xcode **2
 ## What this repo is
 
 - `npx create-expo-app@latest --template blank` (unmodified) plus:
-- `ios.icon: "./assets/placeholder.icon"` in `app.json`
-- `assets/placeholder.icon/icon.json` containing only `{}` — a deliberately bare placeholder. The crash is content-independent (verified against 13 variants including fully-featured `.icon` bundles from Icon Composer 1.5), so this is the smallest possible reproducer.
+- `ios.icon: "./assets/app.icon"` in `app.json`
+- `assets/app.icon/` — a single-layer Liquid Glass icon (a football on a gradient background) representative of Icon Composer 1.5 output.
 
-Drop in any "real" `.icon` from Icon Composer and the crash is identical.
+The crash is content-independent: verified against 13 variants including a bare `{ }` icon.json with no `Assets/` directory. Drop in any other `.icon` from Icon Composer and the crash is identical.
 
 ## How to reproduce
 
